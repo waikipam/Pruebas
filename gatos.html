@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+<body>
+    <!--Inicio Navbar--> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary ">
+        <div class="container-fluid">
+          <a class="navbar-brand" >PERROS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Nuestros animalitos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./perros.html">Perros</a></li>
+                  <li><a class="dropdown-item" href="./gatos.html">Gatos</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Fin Navbar-->
+
+
+    <!--Inicio cartas-->
+    
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+
+            <!--Inicio imagen-->
+            <img src="./images/raul.jpg"  height="300px" class="card-img-top" alt="Chimuelo">
+            <div class="card-body">
+              <h5 class="card-title">Raúl</h5>
+              <p class="card-text">Raúl es un gato muy cariñoso y le gusta morder almohadas.</p>
+
+                <!-- Boton -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#chimuelo">
+                    Ver Perfil
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="chimuelo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Raúl</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        Raúl es un gatito el cual es muy cariñoso y busca una familia.
+                        <br>
+                        <br>
+                        <ul>
+                            <li>Nombre: Raúl</li>
+                            <li>Sexo: Macho</li>
+                            <li>Raza: No se sabe</li>
+                            <li>Operado: No</li>
+                            <li>Chip: 7771412454</li>
+                        </ul>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                        <a href="./adoptar.html" class="btn btn-success">Adoptar</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <div class="card">
+            <img src="images/gambino.webp" height="300px" class="card-img-top" alt="gambino">
+            <div class="card-body">
+              <h5 class="card-title">Gambino</h5>
+              <p class="card-text">Gambino busca un hogar en el cual lo traten con mucho cariño.</p>
+
+               <!-- Button trigger modal -->
+               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gambino">
+                Ver Perfil
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="gambino" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Gambino</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    Gambino es un gatito el cual es muy cariñoso y busca una familia.
+                    <br>
+                    <br>
+                    <ul>
+                        <li>Nombre: Gambino</li>
+                        <li>Sexo: Macho</li>
+                        <li>Raza: Egipcio</li>
+                        <li>Operado: No</li>
+                        <li>Chip: 6661412454</li>
+                    </ul>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                    <a href="./adoptar.html" class="btn btn-success">Adoptar</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/leonidas.webp" height="300px" class="card-img-top" alt="leonidas">
+            <div class="card-body">
+              <h5 class="card-title">Leonidas</h5>
+              <p class="card-text">Leonidas es un gatito que busca hogar, cariño y mucha alegría.</p>
+
+              <!-- Boton -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#leonidas">
+                Ver Perfil
+            </button>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="leonidas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Leonidas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                Leonidas es un gatito el cual es muy cariñoso y busca una familia.
+                <br>
+                <br>
+                <ul>
+                    <li>Nombre: Leonidas</li>
+                    <li>Sexo: Macho</li>
+                    <li>Raza: No se sabe</li>
+                    <li>Operado: no</li>
+                    <li>Chip: 5551412454</li>
+                </ul>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                <a href="./adoptar.html" class="btn btn-success">Adoptar</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="images/orange.jfif" height="300px" class="card-img-top" alt="orange">
+            <div class="card-body">
+              <h5 class="card-title">Orange</h5>
+              <p class="card-text">Orange es un gatito que busca un hogar y que lo cuiden mucho.</p>
+              <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orange">
+                    Ver Perfil
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="orange" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Orange</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            Orange es un gatito el cual es muy cariñoso y busca una familia.
+            <br>
+            <br>
+            <ul>
+                <li>Nombre: Orange</li>
+                <li>Sexo: Macho</li>
+                <li>Raza: No se sabe</li>
+                <li>Operado: no</li>
+                <li>Chip: 1111412454</li>
+            </ul>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+            <a href="./adoptar.html" class="btn btn-success">Adoptar</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--Fin cartas-->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>

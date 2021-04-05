@@ -1,0 +1,23 @@
+body{
+    background-image: url('/images/parque.jpg');
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    opacity: .8;
+}
+.texto-encima{
+
+    top: 10px;
+    left: 100px;
+    color: #fff;
+    background-color: green;
+
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
